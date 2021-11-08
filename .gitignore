@@ -1,0 +1,6 @@
+# working directories
+predictions
+trainedModels
+
+# example image(s)
+*.tiff
