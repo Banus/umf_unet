@@ -78,12 +78,20 @@ details).
 If you find this repository useful in your research, please cite:
 
 ```bibtex
-@article{Plebani2021crism,
+@Article{Plebani2022umf,
+  author={Plebani, Emanuele and Biscola, Natalia P. and Havton, Leif A.
+          and Rajwa, Bartek and Shemonti, Abida Sanjana and Jaffey, Deborah
+          and Powley, Terry and Keast, Janet R. and Lu, Kun-Han
+          and Dundar, M. Murat},
   title={High-throughput segmentation of unmyelinated axons by deep learning},
-  author={Emanuele Plebani and Natalia Biscola and Leif Havton and Bartek Rajwa
-    and Abida SanjanaShemonti and Deborah Jaffey and Terry Powley and
-    Janet R. Keast and Kun-Han Lu and and MuratDundar},
-  booktitle={to be submitted to Nature Scientific Reports},
-  year={2021}
+  journal={Scientific Reports},
+  year={2022},
+  month={Jan},
+  day={24},
+  volume={12},
+  number={1},
+  pages={1198},
+  issn={2045-2322},
+  doi={10.1038/s41598-022-04854-3}
 }
 ```
