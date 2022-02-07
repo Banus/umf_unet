@@ -2,7 +2,7 @@ out_folder='./';
 
 plot_figures=true;
 model_path = [out_folder, 'trainedModels/'];
-load([model_path,'unet.mat'],'net')
+load([model_path,'unet_v1_published.mat'],'net')
 
 % testing
 tsize=256; gsize=256;
@@ -19,8 +19,6 @@ for i=1:numel(images)
   imwrite(mask,[outDir,images(i).name,'_pred.png'])
   out=labeloverlay(I,mask,'Colormap','autumn');
   imwrite(out,[outDir,images(i).name,'_overlay.tiff'])
-%   I=imread("sub-131_sam-8_Image_em.png");
-%   mask=imread('predictions\sub-131_sam-8_Image_em_pred.png');
 
   % evaluation with respect to the manual annotations
   gt=imread([images(i).folder,images(i).name,'.png']);
