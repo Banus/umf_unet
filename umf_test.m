@@ -22,13 +22,13 @@ for i=1:numel(images)
 
   % evaluation with respect to the manual annotations
   gt=imread([images(i).folder,images(i).name,'.png']);
-  mask=postprocess_predictions(mask,50,1);
+  mask=postprocess_predictions(mask,50,5);
   [pq,sq,rq]=panoptic_quality(gt,mask);
   tp=sum(mask&gt,'all'); fp=sum(mask&~gt,'all'); fn=sum(~mask&gt,'all');
   dice=2*tp/(2*tp+fp+fn); jaccard=tp/(tp+fp+fn);
 
   % report results
-  fprintf('\nResult for %s:\n Panoptic Quality = %.3f\n', images(i).name, pq);
+  fprintf('Result for %s:\n Panoptic Quality = %.3f\n', images(i).name, pq);
   fprintf(' Segmentation Quality = %.3f\n Recognition Quality = %.3f\n',sq,rq);
   fprintf(' DICE score = %.3f\n Jaccard coefficient = %.3f\n',dice,jaccard);
 
@@ -77,10 +77,11 @@ function [I,BI,CI]=image_segment(net,fname,tsize,gsize)
       cnt(gi:gie,gj:gje)=cnt(gi:gie,gj:gje)+1;
 
       % update progress
-      progress=fix((i*numCols+j)/(numRows*numCols)*100);
+      progress=fix(strd*(i*numCols+j)/(numRows*numCols)*100);
       if progress>n_perc, n_perc=progress; fprintf('.'); end
     end
   end
+  fprintf('\n');
   CI=CI./cnt; BI=BI./cnt;
 end
 

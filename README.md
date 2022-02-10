@@ -2,9 +2,9 @@
 
 This is the official implementation of our *Scientific Reports* paper (2022):
 
-**High-throughput segmentation of unmyelinated axons by deep learning**<br>
-Emanuele Plebani, Natalia P. Biscola, Leif A. Havton, Bartek Rajwa, 
-Abida Sanjana Shemonti, Deborah Jaffey, Terry Powley, Janet R. Keast, 
+**High-throughput segmentation of unmyelinated axons by deep learning**  
+Emanuele Plebani, Natalia P. Biscola, Leif A. Havton, Bartek Rajwa,
+Abida Sanjana Shemonti, Deborah Jaffey, Terry Powley, Janet R. Keast,
 Kun-Han Lu & M. Murat Dundar
 
 Abstract: *Axonal characterizations of connectomes in healthy and disease
@@ -100,14 +100,18 @@ the `v2` model):
 umf_test
 ```
 
+The predictions are saved in the folder `predictions`, a black-and-white PNG
+file with the segmentation mask and a TIFF color overlay on the original image.
+A set of metrics are also printed on the command window.
+
 You should get the following results for the two models:
 
 | **Model** | **Image name**        | **PQ** | **SQ** | **RQ** | **Dice** | **Jaccard** |
 | ----        | ----                     | ----    | ----  | ----  | ----   | ----     |
-| **v1**     | `sub-131_sam-8_Image_em` | 0.646   | 0.784 | 0.824 | 0.866  | 0.764    |
-| **v2**     | `sub-131_sam-8_Image_em` | 0.666   | 0.802 | 0.830 | 0.876  | 0.779    |
+| **v1**     | `sub-131_sam-8_Image_em` | 0.669   | 0.800 | 0.836 | 0.875  | 0.777    |
+| **v2**     | `sub-131_sam-8_Image_em` | 0.676   | 0.822 | 0.823 | 0.883  | 0.791    |
 
-![Segmentation result](result.png)<br>
+![Segmentation result](result.png)  
 *Predictions for the `v1` model.*
 
 ## License
