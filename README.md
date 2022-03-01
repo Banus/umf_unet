@@ -81,6 +81,9 @@ Quality (PQ), the Segmentation Quality (SQ), and the Recognition Quality (RQ)
 measures given the manual segmentation and the segmentation produced by the
 model.
 
+`im2xml.m` is a standalone function that converts a segmentation map generated
+by the mode to an XML file that can be used with the Neurolucida software.
+
 ### Running example
 
 We released two pretrained models: `unet_v1_published` used for the
