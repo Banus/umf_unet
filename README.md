@@ -117,6 +117,10 @@ You should get the following results for the two models:
 ![Segmentation result](result.png)  
 *Predictions for the `v1` model.*
 
+## Dataset
+
+We released a [dataset](https://discover.pennsieve.io/datasets/226) of 21 samples from rat vagus and pelvic nerves.
+
 ## License
 
 The code is released under the Apache-2 License (see `LICENSE.txt` for
