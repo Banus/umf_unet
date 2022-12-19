@@ -121,6 +121,14 @@ You should get the following results for the two models:
 
 We released a [dataset](https://discover.pennsieve.io/datasets/226) of 21 samples from rat vagus and pelvic nerves.
 
+## Ensemble model
+
+We also released in Python an (unpublished) ensemble model for multi-class segmentation, i.e., predicting Schwann cell
+nuclei and myelinated fiber sheaths on top of unmyelinated fibers. The ensemble runs different models at different
+resolutions and averages the predictions.
+
+The code requires the `pytorch` and `fastai` packages, and it is available under the [ensemble](ensemble/) directory.
+
 ## License
 
 The code is released under the Apache-2 License (see `LICENSE.txt` for
