@@ -1,0 +1,16 @@
+name: umf_ensemble
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - fastai
+dependencies:
+  - python==3.8
+  - pytorch::pytorch=1.12.1
+  - pytorch::torchvision=0.13.1
+  - nvidia::cudatoolkit
+  - fastai
+  - jupyter
+  - cudnn
+  - tifffile
+  - scikit-image

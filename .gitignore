@@ -1,6 +1,11 @@
 # working directories
-predictions
+*/predictions
 trainedModels
+*/models
+
+# Python directories
+.ipynb_checkpoints/
+__pycache__/
 
 # example image(s)
 *.tiff

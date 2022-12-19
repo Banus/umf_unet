@@ -148,3 +148,22 @@ If you find this repository useful in your research, please cite:
   doi={10.1038/s41598-022-04854-3}
 }
 ```
+
+The v2 model has been used to generate the segmentation maps for the following
+paper:
+
+```bibtex
+@misc{Shemonti2022stat,
+  author = {Shemonti, Abida Sanjana and Plebani, Emanuele and Biscola, Natalia
+            P. and Jaffey, Deborah M. and Havton, Leif A. and Keast, Janet R.
+            and Pothen, Alex and Dundar, M. Murat and Powley, Terry L. and
+            Rajwa, Bartek},
+  title = {A novel statistical methodology for quantifying the spatial
+           arrangements of axons in peripheral nerves},
+  publisher = {arXiv},
+  year = {2022},
+  url = {https://arxiv.org/abs/2210.09554},
+  doi = {10.48550/ARXIV.2210.09554},
+}
+
+```
