@@ -102,7 +102,7 @@ larger (220k) set of tiles.
 We also released a test image with annotated unmyelinated regions in a separate
 image.
 Download the images and the models from
-[this link](https://cs.iupui.edu/~mdundar/TEM_segmentation/umf_release_data.zip)
+[this link](https://zenodo.org/records/17462455/files/umf_release_data.zip?download=1)
 and unzip the files in this directory.
 
 To run the test script and get the segmentation
