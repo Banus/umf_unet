@@ -1,5 +1,18 @@
 # Unmyelinated fiber segmentation
 
+<p align="center">
+    <a href="https://banus.github.io/projects/tem_segmentation/">
+        <img alt="Project" src="https://img.shields.io/static/v1?label=Project&message=Github&color=blue&logo=github-pages">
+    </a>
+    <a href="https://doi.org/10.1038/s41598-022-04854-3">
+        <img alt="DOI" src="https://img.shields.io/badge/DOI-10.1234--5678--9012-red?style=flat">
+    </a>
+    <a href="https://opensource.org/licenses/Apache-2.0">
+        <img alt="License" src="https://img.shields.io/badge/license-Apache%20License%202.0-yellowgreen">
+    </a>
+  
+</p>
+
 This is the official implementation of our *Scientific Reports* paper (2022):
 
 **High-throughput segmentation of unmyelinated axons by deep learning**  
@@ -27,9 +40,6 @@ this new high-throughput segmentation pipeline will enable quick and accurate
 characterization of unmyelinated fibers at scale and become instrumental in
 significantly advancing our understanding of connectomes in both the peripheral
 and the central nervous systems.*
-
-[paper](https://www.nature.com/articles/s41598-022-04854-3) |
-[project page](https://cs.iupui.edu/~mdundar/TEM_segmentation.htm)
 
 ## Introduction
 
