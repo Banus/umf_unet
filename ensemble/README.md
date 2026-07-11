@@ -63,7 +63,7 @@ A GPU is not required to run the model, but it is recommended to speed up the
 prediction.
 
 We released the models and an additional example image on
-[OneDrive](https://indiana-my.sharepoint.com/:u:/g/personal/eplebani_iu_edu/EVpn6uDAGHNOnMICv0uODOMBRuSW1Ss9MxmSFQAAHI4rtw?e=uSRTee);
+[Zenodo](https://zenodo.org/records/17462455/files/umf_release_ensemble.zip?download=1);
 download the archive and extract it in this folder.
 
 ## Usage
